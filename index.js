@@ -9,7 +9,6 @@ const PORT = process.env.PORT
 app.use(express.json())
 app.use(express.static("public"));
 
-//app.use((req, res, next) =>{} console.log("..") next())
 
 app.use('/videos', videos)
 
